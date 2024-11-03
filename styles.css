@@ -1,0 +1,132 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #282c34, #61dafb);
+    color: white;
+    padding: 50px 0;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation for hero */
+}
+
+h1 {
+    font-size: 2.5rem;
+    animation: slideIn 1s ease forwards; /* Slide-in animation for heading */
+}
+.description {
+    font-size: 1.2rem; /* Increase font size for better readability */
+    line-height: 1.5; /* Improved line height */
+    max-width: 600px; /* Limit the width for better alignment */
+    margin: 20px auto; /* Center the paragraph */
+    padding: 10px 20px; /* Padding around the text */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background for emphasis */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#buttonList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Make buttons stack vertically */
+    align-items: flex-start; /* Align buttons to the left */
+    padding-left: 20px; /* Optional: add padding for better appearance */
+}
+
+
+/* Button Styles */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform transition */
+    width: 200px; /* Fixed width to align buttons neatly */
+    display: flex; /* Allow icon and text to be inline */
+    align-items: center; /* Center the icon and text vertically */
+    position: relative; /* For pseudo-element positioning */
+    overflow: hidden; /* Ensure the pseudo-element is contained */
+}
+
+/* Icon styles */
+button i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.05); /* Scale up the button on hover */
+}
+
+/* Button Active Effect */
+button:active {
+    transform: scale(0.95); /* Scale down when button is pressed */
+}
+
+/* Cool Hover Effect with Pseudo-element */
+button::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300%; /* Start width */
+    height: 300%; /* Start height */
+    background: rgba(255, 255, 255, 0.2); /* White with some transparency */
+    border-radius: 50%; /* Circle shape */
+    transition: all 0.5s ease; /* Smooth transition */
+    transform: translate(-50%, -50%) scale(0); /* Center and scale down */
+    z-index: 0; /* Behind the text */
+}
+
+button:hover::after {
+    transform: translate(-50%, -50%) scale(1); /* Scale up on hover */
+}
+
+button {
+    position: relative; /* For pseudo-element positioning */
+    z-index: 1; /* Ensure button text is above the pseudo-element */
+}
+
+/* README Container */
+.readme-container {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: none; /* Hidden initially */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
