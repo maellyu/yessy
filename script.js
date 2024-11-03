@@ -1,6 +1,6 @@
 // Map of aliases to their corresponding README URLs
 const readmeFiles = {
-    "My First README": 'https://github.com/kayyazka/readme-collection/blob/main/readme/README1.md',
+    "Git and GitHub": 'note/git.html',
     "My Second README": 'https://github.com/kayyazka/readme-collection/blob/main/readme/README2.md',
     "My Third README": 'https://github.com/kayyazka/readme-collection/blob/main/readme/README3.md'
 }; // Add more aliases and file URLs here
