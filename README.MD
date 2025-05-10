@@ -1,12 +1,17 @@
 # NOTE COMMAND
 
-Deskripsi singkat proyek Anda di sini.
+Linux Fundamental Commands Cheat Sheet.
 
-## Fitur Utama
+## Linux Fundamental Commands
 
-*   Fitur 1
-*   Fitur 2
-*   dll
+*   ls -lah: Menampilkan daftar file dan direktori dengan secara detail.
+*   mkdir: Membuat direktori baru.
+*   touch: Membuat file kosong baru.
+*   mv: Memindahkan file dan rename file/directory.
+*   cd: Mengganti directory.
+*   rm: Menghapus file/direktori.
+*   vim ( i = insert, keluar=esc, save = :wq ): Editor text.
+
 
 ## Cara Memulai
 
