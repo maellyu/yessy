@@ -1,3 +1,6 @@
+### 1. Linux Fundamental
+#### 1.1 [Linux command](https://github.com/maellyu/yessy/blob/main/Linux.md)
+
 # NOTE COMMAND
 
 Linux Fundamental Commands Cheat Sheet.
