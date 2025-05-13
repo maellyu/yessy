@@ -9,3 +9,4 @@ Linux Fundamental Commands Cheat Sheet.
 *   cd: Mengganti directory.
 *   rm: Menghapus file/direktori.
 *   vim ( i = insert, keluar=esc, save = :wq ): Editor text.
+* thth
