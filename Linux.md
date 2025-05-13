@@ -9,4 +9,10 @@ Linux Fundamental Commands Cheat Sheet.
 *   cd: Mengganti directory.
 *   rm: Menghapus file/direktori.
 *   vim ( i = insert, keluar=esc, save = :wq ): Editor text.
-* thth
+*   pwd: Menentukan directory sekarang.
+*   tree: Menampilkan tata letak directory.
+*   rm -r: Menghapus folder beserta isinya.
+*   cat: Menunjukan isi dalam file.
+*   less: Menampilkan isi file pada setiap halaman.
+*   head: Menampilkan 10 barisan awal.
+*   tail: Menampilkan 10 barisan terakhir.
