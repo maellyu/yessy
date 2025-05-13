@@ -11,19 +11,19 @@
 
 ## Cara Memulai
 
-1.  Instal [Dependensi] (url)
-2.  Klon repositori: git clone <url repositori>
-3.  Pergi ke folder proyek: cd <nama_folder>
-4.  Run aplikasi: python main.py
+1.  
+2.  
+3.  
+4.  
 
 ## Kontribusi
 
 Jika Anda ingin berkontribusi, silakan ikuti langkah-langkah berikut:
 
-1.  Fork repositori
-2.  Buat cabang baru untuk kontribusi Anda
-3.  Buat perubahan
-4.  Buat pull request
+1.  
+2.  
+3.  
+4.  
 
 ## Lisensi
 
