@@ -31,6 +31,7 @@
 * sudo chmod -R 755 /var/www/your_domain : Command tersebut memungkinkan pemiliknya untuk membaca, menulis, dan mengeksekusi berkas tersebut sambil hanya memberikan izin untuk membaca dan eksekusi kepada grup dan yang lainnya.
 ```
 ``` bash
+#### Command tersebut digunakan untuk membuat contoh halaman index.html dengan menggunakan nano atau text editor lainnya.
 * nano /var/www/your_domain/html/index.html
 ```
 ``` bash
@@ -43,7 +44,7 @@
     </body>
 </html>
 ```
-#### Command tersebut digunakan untuk membuat contoh halaman index.html dengan menggunakan nano atau text editor lainnya.
+
 
 ####  Agar Nginx dapat menyajikan konten yang telah dibuat, dengan cara membuat blok server, yaitu dengan menjalankan command tersebut.
  ``` bash
