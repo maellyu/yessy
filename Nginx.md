@@ -43,8 +43,12 @@
     </body>
 </html>
 ```
-  : Command tersebut digunakan untuk membuat ontoh halaman index.html dengan menggunakan nano atau text editor lainnya.
-* sudo nano /etc/nginx/sites-available/your_domain
+#### Command tersebut digunakan untuk membuat contoh halaman index.html dengan menggunakan nano atau text editor lainnya.
+
+####  Agar Nginx dapat menyajikan konten yang telah dibuat, dengan cara membuat blok server, yaitu dengan menjalankan command tersebut.
+ ``` bash
+   sudo nano /etc/nginx/sites-available/your_domain
+ ``` 
   ``` bash
        server {
               listen 80;
@@ -60,7 +64,6 @@
               }
          }
    ```
-: Agar Nginx dapat menyajikan konten yang telah dibuat, dengan cara membuat blok server, yaitu dengan menjalankan command tersebut.
 * sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/ : mengaktifkan file tersebut dengan membuat tautan dari sana ke direktori sites-enabled, yang dapat dibaca oleh Nginx saat startup.
 * sudo nano /etc/nginx/nginx.conf : Untuk menghindari kemungkinan masalah pada memori hash bucket yang mungkin saja muncul akibat penambahan nama server tambahan, perlu untuk menyesuaikan satu nilai yang ada didalam berkas dengan Command tersebut.
 * sudo nginx -t : Gunakan Command ini untuk memastikan tidak ada masalah syntax didalam salah satu file Nginx.
