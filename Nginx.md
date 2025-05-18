@@ -21,7 +21,7 @@
   .
 ```
 ## Setting Up Vhost Domain
-#### Command tersebut digunakan untuk membuat directory baru.
+#### Command ```mkdir``` untuk membuat directory baru.
 ``` bash
 * sudo mkdir -p /var/www/your_domain/html
 ```
