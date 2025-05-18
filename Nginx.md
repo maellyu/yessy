@@ -5,6 +5,7 @@
 
 ```
 ## Checking your Web Server
+### Digunakan untuk memeriksa system untuk memastikan layanannya berjalan dengan cara mengetik didalam terminal
 ``` bash
 * systemctl status nginx
 * output : nginx.service - A high performance web server and a reverse proxy server
@@ -17,7 +18,7 @@
    CGroup: /system.slice/nginx.service
            ├─2369 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
            └─2380 nginx: worker process
-  : Digunakan untuk memeriksa system untuk memastikan layanannya berjalan dengan cara mengetik didalam terminal.
+  .
 ```
 ## Setting Up Server Blocks (Recommended)
 ``` bash
