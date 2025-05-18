@@ -58,8 +58,8 @@
         location / {
                 try_files $uri $uri/ =404;
         }
-}
-```
+   }
+   ```
 : Agar Nginx dapat menyajikan konten yang telah dibuat, dengan cara membuat blok server, yaitu dengan menjalankan command tersebut.
 * sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/ : mengaktifkan file tersebut dengan membuat tautan dari sana ke direktori sites-enabled, yang dapat dibaca oleh Nginx saat startup.
 * sudo nano /etc/nginx/nginx.conf : Untuk menghindari kemungkinan masalah pada memori hash bucket yang mungkin saja muncul akibat penambahan nama server tambahan, perlu untuk menyesuaikan satu nilai yang ada didalam berkas dengan Command tersebut.
