@@ -20,7 +20,7 @@
            └─2380 nginx: worker process
   .
 ```
-## Setting Up Server Blocks (Recommended)
+## Setting Up Vhost Domain
 ``` bash
 * sudo mkdir -p /var/www/your_domain/html : Command tersebut digunakan untuk membuat directory baru.
 * sudo chown -R $USER:$USER /var/www/your_domain/html : Command tersebut digunakan untuk menetapkan kepemilikan dengan menggunakan variabel $USER.
