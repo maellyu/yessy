@@ -46,19 +46,19 @@
   : Command tersebut digunakan untuk membuat ontoh halaman index.html dengan menggunakan nano atau text editor lainnya.
 * sudo nano /etc/nginx/sites-available/your_domain
   ``` bash
- server {
-        listen 80;
-        listen [::]:80;
-
-        root /var/www/your_domain/html;
-        index index.html index.htm index.nginx-debian.html;
-
-        server_name your_domain www.your_domain;
-
-        location / {
-                try_files $uri $uri/ =404;
-        }
-   }
+       server {
+              listen 80;
+              listen [::]:80;
+      
+              root /var/www/your_domain/html;
+              index index.html index.htm index.nginx-debian.html;
+      
+              server_name your_domain www.your_domain;
+      
+              location / {
+                      try_files $uri $uri/ =404;
+              }
+         }
    ```
 : Agar Nginx dapat menyajikan konten yang telah dibuat, dengan cara membuat blok server, yaitu dengan menjalankan command tersebut.
 * sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/ : mengaktifkan file tersebut dengan membuat tautan dari sana ke direktori sites-enabled, yang dapat dibaca oleh Nginx saat startup.
