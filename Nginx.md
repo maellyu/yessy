@@ -25,9 +25,15 @@
 ``` bash
 * sudo mkdir -p /var/www/your_domain/html
 ```
+``` bash
 * sudo chown -R $USER:$USER /var/www/your_domain/html : Command tersebut digunakan untuk menetapkan kepemilikan dengan menggunakan variabel $USER.
+``` bash
 * sudo chmod -R 755 /var/www/your_domain : Command tersebut memungkinkan pemiliknya untuk membaca, menulis, dan mengeksekusi berkas tersebut sambil hanya memberikan izin untuk membaca dan eksekusi kepada grup dan yang lainnya.
+```
+``` bash
 * nano /var/www/your_domain/html/index.html
+```
+``` bash
 * <html>
     <head>
         <title>Welcome to your_domain!</title>
@@ -36,6 +42,7 @@
         <h1>Success!  The your_domain server block is working!</h1>
     </body>
 </html>
+```
   : Command tersebut digunakan untuk membuat ontoh halaman index.html dengan menggunakan nano atau text editor lainnya.
 * sudo nano /etc/nginx/sites-available/your_domain 
 * server {
