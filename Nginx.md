@@ -25,8 +25,9 @@
 ``` bash
    * sudo mkdir -p /var/www/your_domain/html
 ```
+#### Command ```chown``` untuk menetapkan kepemilikan dengan menggunakan variabel $USER.
 ``` bash
-   * sudo chown -R $USER:$USER /var/www/your_domain/html : Command tersebut digunakan untuk menetapkan kepemilikan dengan menggunakan variabel $USER.
+   * sudo chown -R $USER:$USER /var/www/your_domain/html 
 ```
 ``` bash
    * sudo chmod -R 755 /var/www/your_domain : Command tersebut memungkinkan pemiliknya untuk membaca, menulis, dan mengeksekusi berkas tersebut sambil hanya memberikan izin untuk membaca dan eksekusi kepada grup dan yang lainnya.
