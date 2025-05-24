@@ -69,13 +69,23 @@
               }
          }
    ```
-#### Command untuk mengaktifkan file yang dapat dibaca oleh Nginx saat startup.
+#### Command ```sites-enabled``` untuk mengaktifkan file yang dapat dibaca oleh Nginx saat startup.
  ``` bash
 * sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/ 
 ```
-* sudo nano /etc/nginx/nginx.conf : Untuk menghindari kemungkinan masalah pada memori hash bucket yang mungkin saja muncul akibat penambahan nama server tambahan, perlu untuk menyesuaikan satu nilai yang ada didalam berkas dengan Command tersebut.
-* sudo nginx -t : Gunakan Command ini untuk memastikan tidak ada masalah syntax didalam salah satu file Nginx.
-* sudo systemctl restart nginx : Gunakan Command ini untuk memulai ulang Nginx untuk mengaktifkan perubahan yang telah dibuat.
-* Lalu akan muncul seperti ini : Success! The your_domain server block is working!
-* note = Untuk domain diisi dengan domain kita sendiri.
+#### Command ```nginx.conf``` untuk menghindari kemungkinan masalah pada memori hash bucket.
+``` bash
+* sudo nano /etc/nginx/nginx.conf
+```
+#### Command ```nginx -t``` untuk memastikan tidak ada masalah syntax dalam salah satu file Nginx.
+``` bash
+* sudo nginx -t
+```
+#### Command ```restart``` untuk memulai ulang Nginx.
+``` bash
+* sudo systemctl restart nginx
+```
+## Note = Untuk domain diisi dengan domain kita sendiri.
+``` bash
+contoh : ```your_domain``` menjadi ```hello.com```
 ```
