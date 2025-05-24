@@ -1,11 +1,12 @@
 ## Installing Nginx
+#### Command ```apt install nginx``` digunakan untuk menginstall Nginx.
 ``` bash
 * sudo apt update
-* sudo apt install nginx :  Command ini digunakan untuk menginstall Nginx.
+* sudo apt install nginx 
 
 ```
 ## Checking your Web Server
-### Digunakan untuk memeriksa system untuk memastikan layanannya berjalan dengan cara mengetik didalam terminal
+#### Digunakan untuk memeriksa system untuk memastikan layanannya berjalan dengan cara mengetik didalam terminal
 ``` bash
 * systemctl status nginx
 * output : nginx.service - A high performance web server and a reverse proxy server
