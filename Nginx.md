@@ -86,4 +86,4 @@
 * sudo systemctl restart nginx
 ```
 ## Note = Untuk domain diisi dengan domain kita sendiri.
-# contoh : ```your_domain``` menjadi ```hello.com```
+##### contoh : ```your_domain``` menjadi ```hello.com```
