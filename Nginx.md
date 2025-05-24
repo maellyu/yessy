@@ -33,7 +33,7 @@
 ``` bash
    * sudo chmod -R 755 /var/www/your_domain 
 ```
-#### Command ```/var/www/your_domain/html/index.html``` untuk membuat contoh halaman index.html.
+#### Command ```var``` untuk membuat contoh halaman index.html.
 ``` bash
 
 * nano /var/www/your_domain/html/index.html
@@ -50,7 +50,7 @@
 ```
 
 
-####  Command ```/etc/nginx/sites-available/your_domain``` untuk menyajikan konten yang telah dibuat.
+####  Command ```sites-available``` untuk menyajikan konten yang telah dibuat.
  ``` bash
    sudo nano /etc/nginx/sites-available/your_domain
  ``` 
