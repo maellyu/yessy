@@ -69,7 +69,7 @@
               }
          }
    ```
-#### Command ```ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/```mengaktifkan file yang dapat dibaca oleh Nginx saat startup.
+#### Command untuk mengaktifkan file yang dapat dibaca oleh Nginx saat startup.
  ``` bash
 * sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/ 
 ```
