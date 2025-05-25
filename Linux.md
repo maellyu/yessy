@@ -1,4 +1,4 @@
-Linux Fundamental Commands Cheat Sheet.
+### Linux Fundamental Commands Cheat Sheet.
 
 ## Linux Fundamental Commands
 ``` bash
