@@ -5,7 +5,7 @@
 #### 1.1 [Linux command](https://github.com/maellyu/yessy/blob/main/Linux.md)
 
 ### Web Server
-#### 1.1 [Web Command]()
+#### 1.1 [Web Command](https://github.com/maellyu/yessy/blob/main/Nginx.md)
 
 
 
