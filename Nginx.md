@@ -74,10 +74,6 @@
  ``` bash
 * sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/ 
 ```
-#### Command ```nginx.conf``` untuk menghindari kemungkinan masalah pada memori hash bucket.
-``` bash
-* sudo nano /etc/nginx/nginx.conf
-```
 #### Command ```nginx -t``` untuk memastikan tidak ada masalah syntax dalam salah satu file Nginx.
 ``` bash
 * sudo nginx -t
