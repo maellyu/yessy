@@ -1,7 +1,7 @@
 Linux Fundamental Commands Cheat Sheet.
 
 ## Linux Fundamental Commands
-
+``` bash
 *   ls -lah: Menampilkan daftar file dan direktori dengan secara detail.
 *   mkdir: Membuat direktori baru.
 *   touch: Membuat file kosong baru.
@@ -16,3 +16,4 @@ Linux Fundamental Commands Cheat Sheet.
 *   less: Menampilkan isi file pada setiap halaman.
 *   head: Menampilkan 10 barisan awal.
 *   tail: Menampilkan 10 barisan terakhir.
+```
