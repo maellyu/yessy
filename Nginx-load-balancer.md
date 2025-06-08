@@ -1,18 +1,18 @@
 ## Virtualisasi menggunakan multipass & implementasi Nginx Load Balancer 
 
-#### Command untuk mencantumkan instance yang tersedia.
+### Command untuk mencantumkan instance yang tersedia.
 ```bash
 * Multipass List
 ```
-#### Command untuk menambahkan instance baru ubuntu di dalam mesin.
+### Command untuk menambahkan instance baru ubuntu di dalam mesin.
 ```bash
 * multipass launch 22.04 --name nginx-webserver-01
 ```
-#### Command untuk membuka sesi shell dengan instance yang sudah ditentukan.
+### Command untuk membuka sesi shell dengan instance yang sudah ditentukan.
 ```bash
 * multipass shell  nginx-webserver-01/etc/nginx/sites-enabled$ cat load-balancer.conf 
 ```
-#### nginx upstream Proxy server merupakan sistem yang bertugas sebagai perantara jaringan. Seperti saat mengakses suatu halaman dari sebuah website.
+### nginx upstream Proxy server merupakan sistem yang bertugas sebagai perantara jaringan. Seperti saat mengakses suatu halaman dari sebuah website.
 
 ```bash
 {
