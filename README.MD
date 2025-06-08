@@ -6,6 +6,8 @@
 
 ### Web Server
 #### 1.1 [Web Command](https://github.com/maellyu/yessy/blob/main/Nginx.md)
+### Nginx Load Balancer Web
+#### 1.1 [Nginx Load Balancer command](
 
 
 
