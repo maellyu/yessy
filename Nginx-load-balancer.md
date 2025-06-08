@@ -1,8 +1,8 @@
 ## Virtualisasi menggunakan multipass & implementasi Nginx Load Balancer 
 
-### Command Multipass list
+### Command berfungsi untuk mencantumkan instance yang tersedia.
 ```bash
-* berfungsi untuk mencantumkan instance yang tersedia
+* Multipass List
 ```
 multipass launch 22.04 --name nginx-webserver-01
 multipass list
