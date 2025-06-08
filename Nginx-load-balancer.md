@@ -2,7 +2,7 @@
 
 ### Command Multipass list
 ```bash
-berfungsi untuk mencantumkan instance yang tersedia
+* berfungsi untuk mencantumkan instance yang tersedia
 ```
 multipass launch 22.04 --name nginx-webserver-01
 multipass list
