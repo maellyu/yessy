@@ -11,10 +11,10 @@
 #### Command untuk membuka sesi shell dengan instance yang sudah ditentukan.
 ```bash
 * multipass shell  nginx-webserver-01/etc/nginx/sites-enabled$ cat load-balancer.conf 
+```
+#### nginx upstream Proxy server merupakan sistem yang bertugas sebagai perantara jaringan. Seperti saat mengakses suatu halaman dari sebuah website.
 
-
-nginx upstream ```Proxy server merupakan sistem yang bertugas sebagai perantara jaringan. Seperti saat mengakses suatu halaman dari sebuah website.```
-
+```bash
 {
    upstream backend {
       server 10.92.101.120; 
