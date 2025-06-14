@@ -5,10 +5,10 @@
 #### 1.1 [Linux command](https://github.com/maellyu/yessy/blob/main/Linux.md)
 
 ### 2. Web Server
-#### 1.1 [Web Command](https://github.com/maellyu/yessy/blob/main/Nginx.md)
+#### 2.1 [Web Command](https://github.com/maellyu/yessy/blob/main/Nginx.md)
 
 ### 3. Nginx Load Balancer
-#### 1.1 [Nginx Load Balancer command](https://github.com/maellyu/yessy/blob/main/Nginx-load-balancer.md)
+#### 3.1 [Nginx Load Balancer command](https://github.com/maellyu/yessy/blob/main/Nginx-load-balancer.md)
 
 
 
