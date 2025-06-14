@@ -1,59 +1,59 @@
 ### Linux Fundamental Commands Cheat Sheet.
 
 ## Linux Fundamental Commands
-``` bash
 #### Menampilkan daftar file dan direktori dengan secara detail.
+``` bash
 *   ls -lah
 ```
-``` bash
 #### Membuat direktori baru.
+``` bash
 *   mkdir
 ```
-``` bash
 #### Membuat file kosong baru.
+``` bash
 *   touch
 ```
-``` bash
 #### Memindahkan file dan rename file/directory.
+``` bash
 *   mv
 ```
-``` bash
 #### Mengganti directory.
+``` bash
 *   cd:
 ```
-``` bash
 #### Menghapus file/direktori.
+``` bash
 *   rm
 ```
-``` bash
 #### Editor text
+``` bash
 *   vim ( i = insert, keluar=esc, save = :wq )
 ```
-``` bash
 #### Menentukan directory sekarang.
+``` bash
 *   pwd
 ```
-``` bash
 ####  Menampilkan tata letak directory.
+``` bash
 *   tree
 ```
-``` bash
 #### Menghapus folder beserta isinya.
+``` bash
 *   rm -r
 ```
-``` bash
 #### Menunjukan isi dalam file.
+``` bash
 *   cat
 ```
-``` bash
 #### Menampilkan isi file pada setiap halaman.
+``` bash
 *   less
 ```
-``` bash
 #### Menampilkan 10 barisan awal.
+``` bash
 *   head
 ```
-``` bash
 #### Menampilkan 10 barisan terakhir.
+``` bash
 *   tail
 ```
